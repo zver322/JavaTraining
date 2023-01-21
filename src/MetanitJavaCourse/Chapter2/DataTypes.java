@@ -38,6 +38,50 @@ public class DataTypes {
         char charA = 'A';
         char charB = 'B';
 
+        // Integer numbers
+        byte a = 1;
+        short b = 2;
+        long c = 3222;
 
+        long num = 222222222222222L;
+
+        // Another numerical systems
+        int num16 = 0x6F; // 16, number 111
+        int num8 = 10; // 8, number 8
+        int num2 = 0b1101; // 2, number 13
+
+        // We can use _ for numbers
+        int xx = 123_456;
+        int yy = 234_567_890;
+        System.out.println(xx);
+        System.out.println(yy);
+
+        // float numbers
+        float fb = 30.6f;
+        double db = 30.6;
+
+        // symbols and strings
+        char ch = 102; // symbol 'f'
+        char ch16 = '\u0066'; // symbol f in 16 numerical system
+        System.out.println(ch);
+        System.out.println(ch16);
+
+        String hello = "Hello";
+        System.out.println(hello);
+
+        String hw = "Hello\nWorld";
+        System.out.println(hw);
+
+        // Starting from Java15 we can use text blocks
+        String text = "I love to eat" +
+                      "I love to sleep" +
+                      "I love to work";
+        System.out.println(text);
+        String textAnother = """
+                             I love to eat
+                             I love to sleep
+                             I love to swim
+                             """;
+        System.out.println(textAnother);
     }
 }

@@ -38,5 +38,7 @@ public class VariablesAndConstants {
         final int Limit = 5;
         System.out.println(Limit);
         // Limit = 47 | Error because we can't change constants
+
+
     }
 }
