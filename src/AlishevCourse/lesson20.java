@@ -15,7 +15,6 @@ class Human20 {
         this.age = 0;
         System.out.println("First constructor");
     }
-
     public Human20(String name) {
         System.out.println("Second constructor");
         this.name = name;
