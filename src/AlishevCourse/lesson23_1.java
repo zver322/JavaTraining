@@ -1,6 +1,6 @@
 package AlishevCourse;
 
-public class lesson23 {
+public class lesson23_1 {
     // https://www.youtube.com/watch?v=Vw2GPl3APD4&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak&index=23
 
     public static void main(String[] args) {
