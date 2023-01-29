@@ -1,6 +1,7 @@
 package AlishevCourse;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
+    private String name;
     public void bark(){
         System.out.println("Dog is barking");
 
