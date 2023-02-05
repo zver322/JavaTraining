@@ -3,7 +3,8 @@ package AlishevCourse.Serialisation;
 import java.io.Serializable;
 
 public class Person implements Serializable {
-    private int id;
+    private transient int id;
+    // transient means that you won't write this field into file
     private String name;
 
     public Person(int id, String name) {

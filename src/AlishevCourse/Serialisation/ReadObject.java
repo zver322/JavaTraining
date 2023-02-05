@@ -8,17 +8,13 @@ import java.io.ObjectInputStream;
 public class ReadObject {
     public static void main(String[] args) {
         try {
-            FileInputStream fis = new FileInputStream("src/AlishevCourse/Serialisation/people.bin");
+            FileInputStream fis = new FileInputStream("src/AlishevCourse/Serialisation/people47.bin");
             ObjectInputStream ois = new ObjectInputStream(fis);
             Person person1 = (Person) ois.readObject();
-            Person person2 = (Person) ois.readObject();
 
             System.out.println(person1);
-            System.out.println(person2);
             ois.close();
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
+        } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
 
